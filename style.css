@@ -1,0 +1,178 @@
+@media (min-width: 500px) {
+    body {
+        font-size: 30px;
+    }
+}
+
+header {
+    min-height: 88vh;
+    min-width: 100%;
+    background-image: url("images/mtr.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+header #heading {
+    background: linear-gradient(to right, rgba(173, 216, 230, 0.4), rgba(127, 255, 212, 0.5) ) ;
+    transition: 0.4s;
+    padding: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+}
+
+#navigate {
+    float: right;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header #navigate .menu, .menu:visited {
+    padding: 10px;   
+    margin: 30px;
+    color: rgb(152, 97, 97);
+    background: rgb(68, 23, 202);  
+    text-decoration:double;
+}
+
+header #navigate .menu:hover {
+    background-color: rgba(255, 25, 159, 0.76);
+    color: rgb(226, 150, 150);
+    font-size: 21px;
+    border: 1px solid black; 
+}
+
+header #title, #story, #menu, #our-updates, #reservation, #contact{
+    text-align: center;
+    margin-top: 17%;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 70px;
+    color: rgb(150, 116, 116);
+    -webkit-text-stroke: 0.5px black;
+    font-family:'Times New Roman', Times, serif;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+table, tr, th, td {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 10px;
+    vertical-align: middle;
+    padding-right: 50px;
+}
+
+table td + td{ 
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+table img {
+    float: left; margin-top: -10%;
+}
+
+.image {
+    width: 40vw;
+    height: 40vw;
+    padding: 10px;
+    margin-left: calc(0.5vw);
+    float: left;
+}
+
+.image:hover {
+    width: 42vw;
+    opacity: 0.5;
+}
+
+.container:hover div {
+    visibility: visible;
+    opacity: 1;
+}
+
+ul {
+    display: flex;
+    justify-items: space-around;
+}
+
+li {
+    margin-right: 10%;
+}
+
+.container {
+    position: relative;
+    float: left;
+}
+
+.container div {
+    font-size: 15px;
+}
+
+.form  {
+    margin: 0;
+  font-family: Arial,sans-serif;
+  background-color: aqua;
+}
+
+
+.button {
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+.click {
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to right, #71b7e6, #9b59b6);
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.click:hover {
+    background: linear-gradient(to left, #71b7e6, #9b59b6);
+    color: black;
+}
+
+.click:active {
+    background: purple;
+    color: white;
+}
+
+.slide-container {
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 7200px;
+    height: 600px;
+    margin: 0 0 0 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.image-container img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+
